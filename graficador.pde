@@ -11,7 +11,7 @@ class Dashboard{
   Dashboard(){
     // Aqui se iniciara un tamaño aleatorio, con valores aleatorios
     listaClases = new ArrayList<Float>();
-    int rand = (int) random(2,25);
+    int rand = (int) random(2,20);
     suma = 0;
     prom = false;
     print(" << Array total de: "+rand+" >> ");
